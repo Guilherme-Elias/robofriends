@@ -1,0 +1,15 @@
+THIS FILE CONTAINS IMPORTANT INFORMATION ON SOURCES UTILIZED
+DURING THIS PROJECT'S DEVELOPMENT.
+
+00. the idea of this project was got from:
+https://github.com/aneagoie/robofriends
+
+01. api used to generate the random robot images:
+https://robohash.org/ 
+
+02. font used for main title: 
+https://fonts.google.com/specimen/Sixtyfour
+
+03. favicon source:
+https://www.flaticon.com/free-icon/robot_3662817?term=robots&page=1&position=6&origin=search&related_id=3662817
+

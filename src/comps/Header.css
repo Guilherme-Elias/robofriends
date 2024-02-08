@@ -1,0 +1,40 @@
+#header{
+    padding: 2em 0em 1em 0em; width: 100%;
+    background-color: white;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: space-evenly;
+}
+
+@keyframes rainbow{
+    0%   { color: rgb(255, 0, 0);    } 
+    10%  { color: rgb(255, 128, 0);  } 
+    20%  { color: rgb(255, 255, 0);  }  
+    30%  { color: rgb(128, 255, 0);  } 
+    40%  { color: rgb(0, 255, 0);    } 
+    50%  { color: rgb(0, 255, 128);  } 
+    60%  { color: rgb(0, 255, 255);  } 
+    70%  { color: rgb(0, 128, 255);  } 
+    80%  { color: rgb(0, 0, 255);    } 
+    90%  { color: rgb(128, 0, 255);  }  
+    100% { color: rgb(255, 0, 255);  } 
+}
+
+@font-face {
+    font-family: "SixtyFour";
+    src: url("../func/Sixtyfour-Regular.ttf");
+}
+
+#header h1{
+    color: transparent;
+    font-family: "SixtyFour";
+    font-size: xx-large; font-weight: medium;
+    animation: rainbow 5s linear infinite forwards;
+    animation-delay: 1s;
+}
+
+#header p{
+    color: black;
+    font-size: large;
+    margin-bottom: 0%;
+    font-family: "SixtyFour";
+}
